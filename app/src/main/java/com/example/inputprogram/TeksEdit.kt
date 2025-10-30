@@ -1,5 +1,11 @@
 package com.example.inputprogram
 
+
+import android.R.attr.text
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
@@ -35,7 +41,6 @@ fun FormDataDiri(modifier: Modifier
     var nama by remember { mutableStateOf("") }
     var alamat by remember { mutableStateOf("") }
     var jenis by remember { mutableStateOf("") }
-
 
     val gender: List<String> = listOf("laki-laki", "perempuan")
 
