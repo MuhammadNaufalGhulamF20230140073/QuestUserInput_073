@@ -1,9 +1,4 @@
 package com.example.inputprogram
-
-
-package com.example.inputprogram
-
-
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
