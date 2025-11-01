@@ -101,3 +101,8 @@ fun FormPendaftaran(modifier: Modifier) {
                     modifier = Modifier.fillMaxWidth(),
                     label = { Text(text = "Isian nama lengkap") }
                 )
+                Text(
+                    text = "JENIS KELAMIN",
+                    fontWeight = FontWeight.Bold,
+                    color = MaterialTheme.colorScheme.onSurface
+                )
