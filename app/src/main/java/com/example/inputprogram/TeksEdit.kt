@@ -78,3 +78,7 @@ fun FormPendaftaran(modifier: Modifier) {
             elevation = CardDefaults.cardElevation(
                 defaultElevation = 8.dp
             ),
+            colors = CardDefaults.cardColors(
+                containerColor = Color.White
+            )
+        ) {
