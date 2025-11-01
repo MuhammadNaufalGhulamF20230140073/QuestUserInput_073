@@ -106,3 +106,9 @@ fun FormPendaftaran(modifier: Modifier) {
                     fontWeight = FontWeight.Bold,
                     color = MaterialTheme.colorScheme.onSurface
                 )
+                Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                    genderOptions.forEach { text ->
+                        Row(
+                            modifier = Modifier.fillMaxWidth().padding(horizontal = 4.dp),
+                            verticalAlignment = Alignment.CenterVertically
+                        )
