@@ -148,4 +148,9 @@ fun FormPendaftaran(modifier: Modifier) {
                         }
                     }
                 }
+                Text(
+                    text = "ALAMAT",
+                    fontWeight = FontWeight.Bold,
+                    color = MaterialTheme.colorScheme.onSurface
+                )
 
