@@ -161,4 +161,16 @@ fun FormPendaftaran(modifier: Modifier) {
                     label = { Text(text = "Alamat") }
                 )
 
+                Button(
+                    onClick = { /* Tidak ada aksi karena statis */ },
+                    modifier = Modifier.fillMaxWidth().height(50.dp),
+                ) {
+                    Text("Submit")
+                }
+            }
+        }
+        }
+    }
+}
+
 
