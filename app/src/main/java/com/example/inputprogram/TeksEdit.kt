@@ -43,3 +43,6 @@ import com.example.inputprogram.ui.theme.PurpleGrey80
 fun FormPendaftaran(modifier: Modifier) {
     val dummyTextValue = remember { mutableStateOf("") }
     val dummyOnValueChange: (String) -> Unit = {}
+
+    val selectedGender = ""
+    val selectedStatus = ""
