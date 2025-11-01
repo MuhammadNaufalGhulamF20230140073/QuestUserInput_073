@@ -111,4 +111,9 @@ fun FormPendaftaran(modifier: Modifier) {
                         Row(
                             modifier = Modifier.fillMaxWidth().padding(horizontal = 4.dp),
                             verticalAlignment = Alignment.CenterVertically
-                        )
+                        ){
+                            RadioButton(
+                                selected = text == selectedGender,
+                                onClick = null
+                            )
+
