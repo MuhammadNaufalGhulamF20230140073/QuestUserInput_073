@@ -89,3 +89,8 @@ fun FormPendaftaran(modifier: Modifier) {
                 verticalArrangement = Arrangement.spacedBy(16.dp),
                 horizontalAlignment = Alignment.Start
             ) {
+                Text(
+                    text = "NAMA LENGKAP",
+                    fontWeight = FontWeight.Bold,
+                    color = MaterialTheme.colorScheme.onSurface
+                )
