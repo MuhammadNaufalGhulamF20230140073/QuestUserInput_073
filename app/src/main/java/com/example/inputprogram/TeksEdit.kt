@@ -46,3 +46,6 @@ fun FormPendaftaran(modifier: Modifier) {
 
     val selectedGender = ""
     val selectedStatus = ""
+
+    val genderOptions = listOf("Laki-laki", "Perempuan")
+    val statusOptions = listOf("Janda", "Lajang", "Duda")
