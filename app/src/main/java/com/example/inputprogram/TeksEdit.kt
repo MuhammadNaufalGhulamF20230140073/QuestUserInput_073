@@ -129,4 +129,23 @@ fun FormPendaftaran(modifier: Modifier) {
                     fontWeight = FontWeight.Bold,
                     color = MaterialTheme.colorScheme.onSurface
                 )
+                Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                    statusOptions.forEach { text ->
+                        // INLINE: RadioButtonRow Logic
+                        Row(
+                            modifier = Modifier.fillMaxWidth().padding(horizontal = 4.dp),
+                            verticalAlignment = Alignment.CenterVertically
+                        ) {
+                            RadioButton(
+                                selected = text == selectedStatus,
+                                onClick = null
+                            )
+                            Text(
+                                text = text,
+                                style = MaterialTheme.typography.bodyLarge,
+                                modifier = Modifier.padding(10.dp)
+                            )
+                        }
+                    }
+                }
 
