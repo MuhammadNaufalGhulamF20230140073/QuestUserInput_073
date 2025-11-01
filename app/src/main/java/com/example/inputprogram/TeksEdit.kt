@@ -153,4 +153,12 @@ fun FormPendaftaran(modifier: Modifier) {
                     fontWeight = FontWeight.Bold,
                     color = MaterialTheme.colorScheme.onSurface
                 )
+                OutlinedTextField(
+                    value = dummyTextValue.value,
+                    onValueChange = dummyOnValueChange,
+                    singleLine = true,
+                    modifier = Modifier.fillMaxWidth(),
+                    label = { Text(text = "Alamat") }
+                )
+
 
