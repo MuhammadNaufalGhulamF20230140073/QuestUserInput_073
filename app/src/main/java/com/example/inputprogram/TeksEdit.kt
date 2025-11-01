@@ -121,4 +121,12 @@ fun FormPendaftaran(modifier: Modifier) {
                                 style = MaterialTheme.typography.bodyLarge,
                                 modifier = Modifier.padding(10.dp)
                             )
+                        }
+                    }
+                }
+                Text(
+                    text = "STATUS PERKAWINAN",
+                    fontWeight = FontWeight.Bold,
+                    color = MaterialTheme.colorScheme.onSurface
+                )
 
