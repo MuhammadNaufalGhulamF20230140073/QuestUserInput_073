@@ -49,3 +49,10 @@ fun FormPendaftaran(modifier: Modifier) {
 
     val genderOptions = listOf("Laki-laki", "Perempuan")
     val statusOptions = listOf("Janda", "Lajang", "Duda")
+
+    Surface(
+        modifier = Modifier.fillMaxSize(),
+        color = LightBlue
+    ) {
+        Column(modifier = Modifier.fillMaxSize()) {
+            Box(
