@@ -116,4 +116,9 @@ fun FormPendaftaran(modifier: Modifier) {
                                 selected = text == selectedGender,
                                 onClick = null
                             )
+                            Text(
+                                text = text,
+                                style = MaterialTheme.typography.bodyLarge,
+                                modifier = Modifier.padding(10.dp)
+                            )
 
